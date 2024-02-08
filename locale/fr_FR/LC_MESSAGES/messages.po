@@ -1,0 +1,152 @@
+# French (France) translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-02-06 16:35+0100\n"
+"PO-Revision-Date: 2024-01-25 22:21+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr_FR\n"
+"Language-Team: fr_FR <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: tesla_sniffer.py:44
+msgid "Search url:"
+msgstr "URL de recherche :"
+
+#: tesla_sniffer.py:60
+msgid "Car url:"
+msgstr "URL de véhicule :"
+
+#: tesla_sniffer.py:66
+msgid "${}"
+msgstr "{}€"
+
+#: tesla_sniffer.py:103
+msgid "While handling conversion of: '{}'"
+msgstr "Durant la gestion de la conversion de '{}'"
+
+#: tesla_sniffer.py:139
+msgid "Error getting addr for {}: {}"
+msgstr "Erreur : récupération de l'adresse de {} : {}"
+
+#: tesla_sniffer.py:152
+msgid " Paint"
+msgstr "Coloris "
+
+#: tesla_sniffer.py:154
+msgid " Wheels"
+msgstr "Jantes "
+
+#: tesla_sniffer.py:156 tesla_sniffer.py:195
+msgid "Tow Hitch"
+msgstr "Crochet d'attelage"
+
+#: tesla_sniffer.py:185
+msgid "far far away (Naboo)"
+msgstr "fort fort-lointain (votre princesse est dans un autre château)"
+
+#: tesla_sniffer.py:219
+msgid " --tow hitch-- "
+msgstr " --crochet d'attelage-- "
+
+#: tesla_sniffer.py:229
+msgid "Closest:"
+msgstr "Le plus proche :"
+
+#: tesla_sniffer.py:235
+msgid "Send Notification"
+msgstr "Envoi de notification"
+
+#: tesla_sniffer.py:250
+msgid "No yet implemented"
+msgstr "Pas encore implémenté"
+
+#: tesla_sniffer.py:259
+msgid "No SMS mechanism set"
+msgstr "Pas de méchanisme d'envoi de SMS séléctionné"
+
+#: tesla_sniffer.py:272
+msgid "Sending SMS: {}"
+msgstr "Envoi du SMS : {}"
+
+#: tesla_sniffer.py:279
+msgid "Exception occurred"
+msgstr "Un exception a étée levée"
+
+#: tesla_sniffer.py:282
+msgid "SMS send failed!"
+msgstr "Erreur d'envoi de SMS"
+
+#: tesla_sniffer.py:341
+msgid "Nothing configured yet. This script will create a configuration for you."
+msgstr ""
+"Rien n'est configuré pour le moment. Ce script va générer une "
+"configuration avec vous."
+
+#: tesla_sniffer.py:342
+msgid ""
+"To be able to do it, simply copy paste here the URL of the inventory "
+"search you want on Tesla website (including your required options)."
+msgstr ""
+"Pour cela, copiez l'URL de votre recherche sur le site tesla (avec les "
+"options voulues) ici."
+
+#: tesla_sniffer.py:345
+msgid "For instance, for a Gray Model Y with 19\" Wheels for Zip code 12345:"
+msgstr "Par exemple, pour un Model Y Gris en jantes 19\" près de Nancy :"
+
+#: tesla_sniffer.py:346
+msgid "https://www.tesla.com/inventory/new/my?PAINT=GRAY&WHEELS=NINETEEN&arrangeby=plh&zip=12345&range=0"
+msgstr "https://www.tesla.com/fr_FR/inventory/new/my?PAINT=GRAY&WHEELS=NINETEEN&arrangeby=plh&zip=54000&range=0"
+
+#: tesla_sniffer.py:362
+msgid "Error: zip is not provided in URL: cannot continue."
+msgstr "Erreur: le code postal (ZIP) n'a pas été fourni dans l'URL. Arrêt!"
+
+#: tesla_sniffer.py:377
+msgid "Error: hit [enter] or give a new numeric value."
+msgstr ""
+"Erreur: tapez sur la touche [entrée] ou entrez une nouvelle valeure "
+"numérique"
+
+#: tesla_sniffer.py:398
+msgid "Update frequency (seconds)"
+msgstr "Fréquence de mise à jour (seconds)"
+
+#: tesla_sniffer.py:399
+msgid "Display car not farer than (km)"
+msgstr "Afficher les voitures dans un rayon de (km)"
+
+#: tesla_sniffer.py:401
+msgid "Display cars cheaper than"
+msgstr "Afficher les voitures moins chers que"
+
+#: tesla_sniffer.py:402
+msgid "Notify cheaper cars than"
+msgstr "Envoyer une notification si le véhicule est moins cher que"
+
+#: tesla_sniffer.py:404
+msgid "Send a SMS for cars cheaper than"
+msgstr "Envoyer un SMS si le véhicule est moins cher que"
+
+#: tesla_sniffer.py:497
+msgid "Processed {}/{} car(s)..."
+msgstr "{}/{} véhicule(s) lus pour le moment..."
+
+#: tesla_sniffer.py:498
+msgid "Processed {} cars!"
+msgstr "{} véhicule(s) lus"
+
+#: tesla_sniffer.py:507
+msgid "Handled {} cars in {:.2f}s"
+msgstr "{} véhicule(s) étudié(s) en {:.2f}s"
+

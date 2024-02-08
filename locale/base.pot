@@ -1,0 +1,145 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-02-06 16:35+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: tesla_sniffer.py:44
+msgid "Search url:"
+msgstr ""
+
+#: tesla_sniffer.py:60
+msgid "Car url:"
+msgstr ""
+
+#: tesla_sniffer.py:66
+msgid "${}"
+msgstr ""
+
+#: tesla_sniffer.py:103
+msgid "While handling conversion of: '{}'"
+msgstr ""
+
+#: tesla_sniffer.py:139
+msgid "Error getting addr for {}: {}"
+msgstr ""
+
+#: tesla_sniffer.py:152
+msgid " Paint"
+msgstr ""
+
+#: tesla_sniffer.py:154
+msgid " Wheels"
+msgstr ""
+
+#: tesla_sniffer.py:156 tesla_sniffer.py:195
+msgid "Tow Hitch"
+msgstr ""
+
+#: tesla_sniffer.py:185
+msgid "far far away (Naboo)"
+msgstr ""
+
+#: tesla_sniffer.py:219
+msgid " --tow hitch-- "
+msgstr ""
+
+#: tesla_sniffer.py:229
+msgid "Closest:"
+msgstr ""
+
+#: tesla_sniffer.py:235
+msgid "Send Notification"
+msgstr ""
+
+#: tesla_sniffer.py:250
+msgid "No yet implemented"
+msgstr ""
+
+#: tesla_sniffer.py:259
+msgid "No SMS mechanism set"
+msgstr ""
+
+#: tesla_sniffer.py:272
+msgid "Sending SMS: {}"
+msgstr ""
+
+#: tesla_sniffer.py:279
+msgid "Exception occurred"
+msgstr ""
+
+#: tesla_sniffer.py:282
+msgid "SMS send failed!"
+msgstr ""
+
+#: tesla_sniffer.py:341
+msgid "Nothing configured yet. This script will create a configuration for you."
+msgstr ""
+
+#: tesla_sniffer.py:342
+msgid ""
+"To be able to do it, simply copy paste here the URL of the inventory "
+"search you want on Tesla website (including your required options)."
+msgstr ""
+
+#: tesla_sniffer.py:345
+msgid "For instance, for a Gray Model Y with 19\" Wheels for Zip code 12345:"
+msgstr ""
+
+#: tesla_sniffer.py:346
+msgid "https://www.tesla.com/inventory/new/my?PAINT=GRAY&WHEELS=NINETEEN&arrangeby=plh&zip=12345&range=0"
+msgstr ""
+
+#: tesla_sniffer.py:362
+msgid "Error: zip is not provided in URL: cannot continue."
+msgstr ""
+
+#: tesla_sniffer.py:377
+msgid "Error: hit [enter] or give a new numeric value."
+msgstr ""
+
+#: tesla_sniffer.py:398
+msgid "Update frequency (seconds)"
+msgstr ""
+
+#: tesla_sniffer.py:399
+msgid "Display car not farer than (km)"
+msgstr ""
+
+#: tesla_sniffer.py:401
+msgid "Display cars cheaper than"
+msgstr ""
+
+#: tesla_sniffer.py:402
+msgid "Notify cheaper cars than"
+msgstr ""
+
+#: tesla_sniffer.py:404
+msgid "Send a SMS for cars cheaper than"
+msgstr ""
+
+#: tesla_sniffer.py:497
+msgid "Processed {}/{} car(s)..."
+msgstr ""
+
+#: tesla_sniffer.py:498
+msgid "Processed {} cars!"
+msgstr ""
+
+#: tesla_sniffer.py:507
+msgid "Handled {} cars in {:.2f}s"
+msgstr ""
+
